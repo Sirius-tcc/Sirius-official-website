@@ -1,0 +1,52 @@
+:root{
+  --most: #333;
+  --medium: #4d4d4d;
+  --light: #c7c7c7;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--most);
+  font-size: max(60px, 4vw);
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+}
+
+header,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+section {
+  background: var(--light);
+}
+
+header {
+  background:white;
+  position: relative;
+}
+
+header img.logo {
+  padding: 10px 50px;
+  margin: 40px;
+  z-index: 2;
+  top: 10px;
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
