@@ -11,7 +11,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 16px;
+  width: 14px;
   height: 100%;
 }
  
@@ -21,7 +21,7 @@
 }
  
 ::-webkit-scrollbar-track-piece  {
-  background-color: white;
+  background-color: white;  
   height: 100%;
 }
  
@@ -97,6 +97,7 @@ header .waves {
 
 /* Services sections */
 
+
 #service h2 {
   font-family: 'Archivo', sans-serif;
   font-size: 24px;
@@ -114,11 +115,13 @@ header .waves {
   display: flex;
   justify-content: center;
   align-content: center;
+  margin: 30px;
+
 }
 
 #service .content{
   padding: 10px;
-  margin: 28px;
+  margin: 16px;
 
 }
 
@@ -143,6 +146,8 @@ header .waves {
 #projects{
   background-color: #D4D4D4;
 }
+
+
 #projects .projects-container{
   display: flex;
   align-content: center;
@@ -157,6 +162,7 @@ header .waves {
   width: 310px;
   padding: 30px;
   margin: 0 50px;
+  cursor: pointer;
 
 }
 
@@ -167,13 +173,12 @@ header .waves {
   background-color: var(--most);
   padding: 25px;
   border-radius: 10px;
-  margin-bottom: 20px;
-  height:250px;
+  height:150px;
   animation: float 1.4s ease-in-out infinite alternate;
 }
 
 #projects .projects-container .content .img img{
-  width: 200px;
+  width: 100px;
 }
 
 #projects .projects-container .content h2 {
@@ -188,6 +193,7 @@ header .waves {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: rgb(180, 180, 180);
+  font-size: 14px;
 }
 
 /* Partner Companies */
@@ -208,7 +214,7 @@ header .waves {
   align-content: center;
   padding: 35px;
   animation: float 2.4s  ease-in-out infinite alternate;
-
+  height: auto;
 }
 
 
@@ -222,7 +228,7 @@ header .waves {
 #team .team-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 60px;
+  gap: 30px;
   padding: 10px;
 
 }
@@ -239,6 +245,7 @@ header .waves {
 #team .team-container .img img{
   border-radius: 50%;
   animation: pulse 3s linear infinite;
+  width: 145px;
 }
 
 #team .team-container .img h2{
@@ -250,5 +257,74 @@ header .waves {
 }
 
 #contacts {
-  background-color: #FAFAFA ;
+  background-color:var(--most);
+}
+
+#contacts h1{
+  color: white;
+  margin-bottom: 10px;
+}
+
+#contacts form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#contacts form label{
+  font-family: 'Archivo',sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 8px;
+  color: rgb(182, 182, 182);
+}
+
+
+#contacts form input{
+  height: 52px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 16px;
+  font-size: 18px;
+  padding: 0 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contacts form textarea{
+  outline: none;
+  height: 150px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 36px;
+  resize: none;
+  overflow: scroll;
+  border: 6px solid #fff;
+  margin-top: 5px;
+  color: var(--medium);
+}
+
+#contacts form .to-right button{
+  height: 60px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #364def;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  width: 45%;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  float:right
+}
+
+
+textarea::-webkit-scrollbar {
+  width: 8px;
 }

@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animations.css"/>
+    <link rel="shortcut icon" href="img/logo-Sirius-white.png" type="image/x-icon">
     <title>Sirius | We are Sirius</title>
   </head>
   <body>
@@ -97,7 +98,7 @@
   
         <div class="content">
           <div class="img">
-            <img class="etec-hep" src="img/projects/Logo.png">
+            <img  src="img/projects/Logo.png">
           </div>
           <h2>Etec Help</h2>
           <h4>
@@ -116,15 +117,15 @@
       <div class="partner-companies-container">
 
         <div class="img-company">
-          <img src="img/partner-companies/iris.png" width="250px"alt="">
+          <img src="img/partner-companies/iris.png" width="180px"alt="">
         </div>
 
         <div class="img-company">
-          <img src="img/partner-companies/terena.png" width="225px"alt="">
+          <img src="img/partner-companies/terena.png" width="180px"alt="">
         </div>
 
         <div class="img-company">
-          <img src="img/partner-companies/avant.png" width="250px"alt="">
+          <img src="img/partner-companies/avant.png" width="200px"alt="">
         </div>
       </div>
     </section>
@@ -163,8 +164,37 @@
       </div>
     </section>
     <section id="contacts">
-      
-    </section>
+        <form action="">
+          <h1>
+            Entrar em contato
+          </h1>
 
+          <label for="name">
+            Nome
+          </label>
+          <input  required="required" name="name" type="text" placeholder="Digite seu nome"/>
+
+          <label for="email">
+            Email
+          </label>
+          <input  required="required"  type="email" name="email" placeholder="Digite seu email"/>
+
+          <label for="text">
+            Mensagem
+          </label>
+          <textarea
+            id="message"
+            name="text"
+            placeholder="Digite a sua mensagem" 
+            required="required" 
+            aria-invalid="false"  
+          ></textarea>
+          <div class="to-right">
+            <button type="submit" >Enviar mensagem</button>
+          </div>
+        </form>
+    </section>
+    
+   
   </body>
 </html>
