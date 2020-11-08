@@ -10,7 +10,6 @@
   box-sizing: border-box;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -76,7 +75,6 @@ ul.sections li{
   margin: 0 5px;
 }
 
-
 ul.sections li a{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -105,6 +103,7 @@ section {
   background: var(--light);
   flex-direction: column;
 }
+
 h1 {
   color: var(--most);
   font-size: max(60px, 4vw);
@@ -114,7 +113,6 @@ h1 {
 
 }
 
-/* Header */
 header {
   background:white;
   position: relative;
@@ -136,10 +134,7 @@ header .waves {
   right: 0;
 }
 
-
-#apresentation{
-  background-color: white;
-}
+#apresentation{ background-color: white; }
 
 #apresentation img.logo {
   padding: 10px 50px;
@@ -155,15 +150,11 @@ header .waves {
 
 }
 
-/* Services sections */
-
-
 #service h2 {
   font-family: 'Archivo', sans-serif;
   font-size: 24px;
   font-weight: bold;
 } 
-
 
 #service h4{
   font-family: 'Poppins', sans-serif;
@@ -176,13 +167,11 @@ header .waves {
   justify-content: center;
   align-content: center;
   margin: 16px;
-
 }
 
 #service .content{
   padding: 10px;
   margin: 16px;
-
 }
 
 #service .content img{
@@ -199,14 +188,7 @@ header .waves {
   width: 350px;
 }
 
-
-
-
-/* Projects */
-#projects{
-  background-color: #D4D4D4;
-}
-
+#projects{ background-color: #D4D4D4; }
 
 #projects .projects-container{
   display: flex;
@@ -215,7 +197,6 @@ header .waves {
   padding: 20px;
 }
 
-
 #projects .projects-container .content{
   background-color: var(--most);
   border-radius: 10px;
@@ -223,7 +204,6 @@ header .waves {
   padding: 30px;
   margin: 0 50px;
   cursor: pointer;
-
 }
 
 #projects .projects-container .content .img{
@@ -237,9 +217,7 @@ header .waves {
   animation: float 1.4s ease-in-out infinite alternate;
 }
 
-#projects .projects-container .content .img img{
-  width: 100px;
-}
+#projects .projects-container .content .img img{ width: 100px; }
 
 #projects .projects-container .content h2 {
   font-family: 'Archivo', sans-serif;
@@ -256,10 +234,7 @@ header .waves {
   font-size: 14px;
 }
 
-/* Partner Companies */
-#partner-companies{
-  background-color: #E0E0E0;
-}
+#partner-companies{ background-color: #E0E0E0; }
 
 #partner-companies .partner-companies-container{
   display: grid;
@@ -277,30 +252,21 @@ header .waves {
   height: auto;
 }
 
-
-/* team */
 #team{
   background-color: #EDEDED ;
   height: 100vh;
 }
-
 
 #team .team-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   padding: 10px;
-
 }
 
-#team .team-container .img{
-  animation: float 1.8s ease-in-out infinite alternate;
-}
+#team .team-container .img{ animation: float 1.8s ease-in-out infinite alternate; }
 
-#team .team-container .img h1{
-  margin: 0;
-
-}
+#team .team-container .img h1{ margin: 0; }
 
 #team .team-container .img img{
   border-radius: 50%;
@@ -316,9 +282,7 @@ header .waves {
   margin-top: 15px;
 }
 
-#contacts {
-  background-color:var(--most);
-}
+#contacts { background-color:var(--most); }
 
 #contacts h1{
   color: white;
@@ -341,7 +305,6 @@ header .waves {
   color: rgb(182, 182, 182);
 }
 
-
 #contacts form input{
   height: 52px;
   outline: none;
@@ -353,9 +316,7 @@ header .waves {
   font-family: 'Poppins', sans-serif;
 }
 
-#contacts form{
-  margin-top: 80px;
-}
+#contacts form{ margin-top: 80px; }
 
 #contacts form textarea{
   outline: none;
@@ -388,7 +349,4 @@ header .waves {
   float:right
 }
 
-
-textarea::-webkit-scrollbar {
-  width: 8px;
-}
+textarea::-webkit-scrollbar { width: 8px; }
